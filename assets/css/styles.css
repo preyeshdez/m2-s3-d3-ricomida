@@ -51,6 +51,19 @@ header .container .header-botones .btn{
     border-color: #DDDDDD;
 }
 
+header .container .header-botones .btn:hover{
+    border-color: #DC3545;
+    background-color: #DC3545;
+    color: #FFFFFF;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: #373A3C;
+    --bs-tooltip-color: #FFFFFF;
+    --bs-tooltip-padding-x: 10px;
+    --bs-tooltip-padding-y: 5px;
+  }
+
 .carousel-indicators{
     bottom: -60px;
 }
@@ -137,6 +150,15 @@ header .container .header-botones .btn{
 .wrapper-suscribir .btn{
     border-color: #FFFFFF;
     color: #FFFFFF;
+    font-size: 16px;
+    width: 90%;
+    max-width: 240px;
+}
+
+.wrapper-suscribir .btn:hover{
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #DC3545;
     font-size: 16px;
     width: 90%;
     max-width: 240px;
