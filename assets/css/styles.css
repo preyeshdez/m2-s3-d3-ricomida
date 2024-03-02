@@ -1,0 +1,204 @@
+/* ESTILOS GENERALES */
+*{
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    box-sizing: border-box;
+    color: #373A3C;
+}
+
+hr {
+    color: #000000;
+    opacity: 1;
+}
+
+/* NAVBAR */
+nav{
+    background-color: #373A3C;
+}
+
+.logo-xl {
+    font-family: "Lobster", sans-serif;
+    color: #FFFFFF;
+    font-size: 37px;
+    font-weight: 300;
+}
+
+/* HEADER */
+header .container .header-titulo h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+header .container .header-img{
+    height: 100%;
+}
+
+header .container img{
+    width: 100%;
+}
+
+header .container .header-subtitulo h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header .container .header-botones .btn{
+    width: 130px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #373A3C;
+    border-color: #DDDDDD;
+}
+
+.carousel-indicators{
+    bottom: -60px;
+}
+
+.carousel-indicators .boton-carrusel {
+    background-color: #000000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+/* SECCION RECETA */
+.receta h2{
+    font-size: 16px;
+}
+
+.receta h3{
+    font-size: 16px;
+}
+
+.receta ul li, .receta ol li {
+    font-size: 16px;
+}
+
+/* SECCION INGREDIENTES */
+
+.ingredientes ul li{
+    margin: 5px 0;
+}
+
+/* SECCION PREPARACION */
+
+.preparacion ol li{
+    margin: 20px 0;
+}
+
+/* SECCION RECETAS RELACIONADAS */
+.recetas-relacionadas .card{
+    height: 100%;
+}
+
+.recetas-relacionadas h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.recetas-relacionadas .card .card-title{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.recetas-relacionadas .card .card-text{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* SUSCRIBIR */
+.suscribir {
+    background-color: #DC3545;
+}
+
+.wrapper-suscribir {
+    color: #FFFFFF;
+}
+
+.wrapper-suscribir h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wrapper-suscribir p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.wrapper-suscribir p .logo-sm{
+    font-family: "Lobster", sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.wrapper-suscribir .btn{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 90%;
+    max-width: 240px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #373A3C;
+}
+
+footer h2{
+    margin: 0;
+    font-size: 37px;
+}
+
+@media (min-width:992px){
+        header .container .header-titulo h1{
+        font-size: 40px;
+    }
+
+    header .container .header-subtitulo h2{
+        font-size: 20px;
+    }
+
+    header .container .header-botones .btn{
+        width: 150px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .receta h2{
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    
+    .receta h3{
+        font-size: 20px;
+    }
+    
+    .receta ul li, .receta ol li {
+        font-size: 20px;
+    }
+
+    .recetas-relacionadas h2{
+        font-size: 40px;
+    }
+
+    .recetas-relacionadas .card .card-title{
+        font-size: 23px;
+    }
+
+    .wrapper-suscribir h2{
+        font-size: 40px;
+    }
+    
+    .wrapper-suscribir p {
+        font-size: 30px;
+    }
+
+    .wrapper-suscribir p .logo-sm{
+        font-size: 30px;
+    }
+
+}
